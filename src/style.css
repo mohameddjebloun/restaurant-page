@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/static/Montserrat-Bold.ttf") format("ttf"),
+        url("./fonts/Montserrat-VariableFont_wght.ttf") format("ttf");
+    font-weight: 600;
+    font-style: normal;
+}
 :root {
     --darkGray: #8c8b7b;
     --whiteYellow: #f2edd5;
@@ -7,6 +14,7 @@
 }
 body,
 html {
+    font-size: 16px;
     border: 0;
     height: 100%;
     margin: 0;
@@ -27,7 +35,8 @@ html {
 }
 #navbar > button {
     border: 0;
-    font-size: 48px;
+    font-size: 2rem;
+    font-family: "Montserrat";
     background-color: var(--whiteYellow);
 }
 #navbar > button:hover {
