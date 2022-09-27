@@ -18,3 +18,9 @@ html {
     width: 100vw;
     background-color: var(--lightGray);
 }
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--darkGray);
+    width: 100vw;
+}
