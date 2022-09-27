@@ -23,4 +23,13 @@ html {
     justify-content: center;
     background-color: var(--darkGray);
     width: 100vw;
+    gap: 10px;
+}
+#navbar > button {
+    border: 0;
+    font-size: 48px;
+    background-color: var(--whiteYellow);
+}
+#navbar > button:hover {
+    text-decoration: underline;
 }
