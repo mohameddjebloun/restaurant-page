@@ -47,20 +47,21 @@ html {
     border-radius: 20px;
 }
 .container > h1 {
-    font-size: 48px;
+    font-size: 4rem;
+}
+.polygon {
+    font-size: 2rem;
     font-family: "Montserrat";
     text-align: center;
     background-color: var(--darkGray);
-}
-.polygon {
     clip-path: polygon(
-        0 33.3%,
-        21% 0,
-        79% 0,
-        100% 33.3%,
-        100% 66.6%,
-        79% 100%,
-        21% 100%,
-        0 66.6%
+        0 20%,
+        10% 0,
+        90% 0,
+        100% 20%,
+        100% 80%,
+        90% 100%,
+        10% 100%,
+        0 80%
     );
 }
