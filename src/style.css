@@ -42,3 +42,7 @@ html {
 #navbar > button:hover {
     text-decoration: underline;
 }
+.container {
+    background-color: var(--whiteYellow);
+    border-radius: 20px;
+}
