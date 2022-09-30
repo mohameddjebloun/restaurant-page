@@ -46,3 +46,21 @@ html {
     background-color: var(--whiteYellow);
     border-radius: 20px;
 }
+.container > h1 {
+    font-size: 48px;
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: var(--darkGray);
+}
+.polygon {
+    clip-path: polygon(
+        0 33.3%,
+        21% 0,
+        79% 0,
+        100% 33.3%,
+        100% 66.6%,
+        79% 100%,
+        21% 100%,
+        0 66.6%
+    );
+}
