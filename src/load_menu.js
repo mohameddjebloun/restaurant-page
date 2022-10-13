@@ -76,6 +76,6 @@ export default function load_menu() {
         pierogiContainer,
         southernFriedContainer
     );
-    //Append home to the content div
+    //Append menu to the content div
     content.appendChild(menu);
 }
