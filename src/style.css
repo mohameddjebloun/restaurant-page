@@ -45,9 +45,18 @@ html {
 .container {
     background-color: var(--whiteYellow);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container > h1 {
     font-size: 4rem;
+    margin-bottom: 0;
+}
+.container > img {
+    max-width: 70%;
+    height: 300px;
 }
 .polygon {
     font-size: 2rem;
